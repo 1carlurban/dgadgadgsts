@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D Gadgets | Premium Technology Store</title>
+  <meta name="description" content="D Gadgets — smartphones, laptops, accessories, gaming, cameras and more in Kampala, Uganda.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#home"><span>D</span> GADGETS</a>
+      <nav id="mainNav">
+        <a href="#home">Home</a><a href="#categories">Categories</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+        <button class="cart-btn" id="cartBtn">Cart <b id="cartCount">0</b></button>
+        <button class="menu-btn" id="menuBtn">☰</button>
+      </div>
+    </div>
+    <div class="search-panel" id="searchPanel">
+      <div class="container search-inner">
+        <input id="searchInput" type="search" placeholder="Search phones, laptops, headphones...">
+        <button id="closeSearch">Close</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">TECHNOLOGY. SIMPLIFIED.</p>
+          <h1>Upgrade your world.</h1>
+          <p class="hero-text">Premium gadgets, trusted devices and smart accessories — all in one place in Kampala.</p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="#products">Shop now →</a>
+            <a class="btn ghost" href="#categories">Explore categories</a>
+          </div>
+          <div class="trust-row"><span>✓ Quality checked</span><span>✓ WhatsApp ordering</span><span>✓ Kampala based</span></div>
+        </div>
+        <div class="hero-device">
+          <div class="glow"></div>
+          <div class="phone">
+            <div class="phone-screen"><span class="camera-dot"></span><div class="screen-word">D</div><small>GADGETS</small></div>
+          </div>
+          <div class="floating-card fc1">⚡ Fast deals<br><strong>Every day</strong></div>
+          <div class="floating-card fc2">📦 New arrivals<br><strong>In stock</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid"><div><strong>10+</strong><span>Product categories</span></div><div><strong>100%</strong><span>Customer focused</span></div><div><strong>24/7</strong><span>WhatsApp inquiries</span></div><div><strong>UG</strong><span>Kampala, Uganda</span></div></div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">SHOP BY CATEGORY</p><h2>Find your next gadget.</h2></div><a href="#products">View all →</a></div>
+        <div class="category-grid">
+          <button class="category" data-category="Smartphones"><span>📱</span><b>Smartphones</b><small>iPhone • Samsung • Android</small></button>
+          <button class="category" data-category="Laptops"><span>💻</span><b>Laptops & Computers</b><small>Work • Study • Business</small></button>
+          <button class="category" data-category="Audio"><span>🎧</span><b>Audio</b><small>Earbuds • Headphones • Speakers</small></button>
+          <button class="category" data-category="Smartwatches"><span>⌚</span><b>Smartwatches</b><small>Fitness • Smart • Classic</small></button>
+          <button class="category" data-category="Gaming"><span>🎮</span><b>Gaming</b><small>Consoles • Accessories</small></button>
+          <button class="category" data-category="Cameras"><span>📷</span><b>Cameras</b><small>Security • Photography</small></button>
+          <button class="category" data-category="Accessories"><span>🔌</span><b>Power & Accessories</b><small>Chargers • Cables • Power banks</small></button>
+          <button class="category" data-category="TV"><span>📺</span><b>TV & Entertainment</b><small>Smart TVs • Home cinema</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section products-section">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">FEATURED STORE</p><h2>Popular picks.</h2></div><div class="filters"><button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Smartphones">Phones</button><button class="filter" data-filter="Laptops">Laptops</button><button class="filter" data-filter="Accessories">Accessories</button></div></div>
+        <div id="productGrid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container promo-box">
+        <div><p class="eyebrow">NEED A DEVICE?</p><h2>Tell us what you're looking for.</h2><p>Can't see it in our featured products? Message D Gadgets and we'll help you find it.</p></div>
+        <a class="btn light" href="https://wa.me/256746330991?text=Hello%20D%20Gadgets%2C%20I%27m%20looking%20for%20a%20gadget." target="_blank">Chat on WhatsApp →</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div><p class="eyebrow">ABOUT D GADGETS</p><h2>Your local technology partner.</h2></div>
+        <div><p>We sell phones, computers, accessories, gaming products, cameras and other smart technology. Our goal is simple: make quality gadgets easier to find and buy in Uganda.</p><p class="muted">Visit our shop in Kampala or order through WhatsApp.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div><a class="logo" href="#home"><span>D</span> GADGETS</a><p>Premium gadgets. Simple shopping.</p></div>
+      <div><h4>Visit us</h4><p>S.P Plaza, L3 Room 003<br>Kampala, Uganda</p></div>
+      <div><h4>Opening hours</h4><p>Mon–Fri: 9am–7pm<br>Saturday: 9am–6pm</p></div>
+      <div><h4>Contact</h4><p><a href="tel:+256746330991">0746 330 991</a><br><a href="https://wa.me/256746330991" target="_blank">WhatsApp us</a></p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 D Gadgets. All rights reserved.</span><span>Built for Uganda 🇺🇬</span></div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-head"><h3>Your cart</h3><button id="closeCart">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-footer"><div><span>Total</span><strong id="cartTotal">UGX 0</strong></div><a id="checkoutBtn" class="btn primary" href="#" target="_blank">Order on WhatsApp</a></div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+  <script src="script.js"></script>
+</body>
+</html>
